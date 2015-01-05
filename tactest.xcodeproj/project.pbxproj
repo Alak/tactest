@@ -14,10 +14,6 @@
 		AC3DF62D1A41784A00A85479 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3DF62C1A41784A00A85479 /* Images.xcassets */; };
 		AC3DF6301A41784A00A85479 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC3DF62E1A41784A00A85479 /* LaunchScreen.xib */; };
 		AC3DF63C1A41784B00A85479 /* tactestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3DF63B1A41784B00A85479 /* tactestTests.m */; };
-		ACC0ADD31A42D47000424B21 /* LlamaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC0ADCF1A42D47000424B21 /* LlamaKit.framework */; };
-		ACC0ADD41A42D47000424B21 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC0ADD01A42D47000424B21 /* Nimble.framework */; };
-		ACC0ADD51A42D47000424B21 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC0ADD11A42D47000424B21 /* Quick.framework */; };
-		ACC0ADD61A42D47000424B21 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC0ADD21A42D47000424B21 /* ReactiveCocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,10 +40,6 @@
 		AC3DF6351A41784B00A85479 /* tactestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tactestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3DF63A1A41784B00A85479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC3DF63B1A41784B00A85479 /* tactestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tactestTests.m; sourceTree = "<group>"; };
-		ACC0ADCF1A42D47000424B21 /* LlamaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LlamaKit.framework; path = Carthage.build/iOS/LlamaKit.framework; sourceTree = "<group>"; };
-		ACC0ADD01A42D47000424B21 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage.build/iOS/Nimble.framework; sourceTree = "<group>"; };
-		ACC0ADD11A42D47000424B21 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage.build/iOS/Quick.framework; sourceTree = "<group>"; };
-		ACC0ADD21A42D47000424B21 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage.build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +47,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACC0ADD31A42D47000424B21 /* LlamaKit.framework in Frameworks */,
-				ACC0ADD41A42D47000424B21 /* Nimble.framework in Frameworks */,
-				ACC0ADD51A42D47000424B21 /* Quick.framework in Frameworks */,
-				ACC0ADD61A42D47000424B21 /* ReactiveCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,10 +123,6 @@
 		ACC0ADCE1A42D45A00424B21 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ACC0ADCF1A42D47000424B21 /* LlamaKit.framework */,
-				ACC0ADD01A42D47000424B21 /* Nimble.framework */,
-				ACC0ADD11A42D47000424B21 /* Quick.framework */,
-				ACC0ADD21A42D47000424B21 /* ReactiveCocoa.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
